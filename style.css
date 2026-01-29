@@ -1,0 +1,44 @@
+/* Selector Tag HTML */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(177, 252, 252);
+}
+h1 {
+    color: rgb(189, 189, 235);
+    font-size: 12;
+}
+
+p{
+    color: burlywood;
+    text-transform: capitalize;
+    border-color: rgb(33, 27, 27);
+}
+/* Selector Class */
+.red{
+    background-color: rgb(76, 94, 255);
+    font-size: 20px;
+}
+.tulisan-miring{
+    font-style: italic;
+    font-size: 20px;
+}
+.red-tulisan-miring{
+    background-color: red;
+    font-style: italic;
+    font-size: 20px;
+}
+.border{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.border-dashed{
+    border: 2px dashed black;
+    padding: 10px;
+    margin: 10px;
+}
+/* Selector ID */
+#huruf-besar{
+    text-transform: uppercase;
+  border: 2px solid black;
+}
